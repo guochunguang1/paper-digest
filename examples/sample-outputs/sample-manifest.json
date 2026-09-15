@@ -1,0 +1,112 @@
+{
+  "pdf": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025.pdf",
+  "n_pages": 21,
+  "text_file": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/paper_text.md",
+  "zoom": 2.2,
+  "figures": [
+    {
+      "label": "Figure 1",
+      "num": 1,
+      "page": 4,
+      "caption": "Figure 1. Expression of TRIM31 in macrophages and atherosclerotic lesions. A, Heatmap showing differential expression of classic E3 ubiquitin ligases in RAW264.7 macrophages treated with oxidized low-density lipoprotein (ox-LDL) compared with control (n=5). Genes with false discovery rate–adjusted (FDR-adj) P<0.05 were selected; color scale indicates normalized expression (z score; blue=low, red=high). B and C, Time-dependent Trim31 mRNA expression (quantitative reverse transcription polymerase ",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig01.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        735.0
+      ]
+    },
+    {
+      "label": "Figure 2",
+      "num": 2,
+      "page": 6,
+      "caption": "Figure 2. Macrophage-specific deletion of Trim31 exacerbates atherosclerosis progression in both male and female mice. A, Representative in situ images of the aortic arch (left) and en face Oil Red O–stained aortas (middle) from male Apoe−/− Trim31fl/fl and Apoe−/− Trim31fl/flLyz2cre mice after 16 weeks of Western diet (WD) feeding. Yellow arrowheads indicate representative atherosclerotic lesions along the aortic arch. Quantification of lesion area (% of total aortic surface) is shown on the ri",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig02.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        736.5
+      ]
+    },
+    {
+      "label": "Figure 3",
+      "num": 3,
+      "page": 8,
+      "caption": "Figure 3. Macrophage-specific overexpression of Trim31 attenuates atherosclerotic lesion development and inflammation. A, Representative in situ images of the aortic arch (left) and en face Oil Red O–stained aortas (middle) from male Apoe−/− and Apoe−/− Trim31Lyz2-KI mice after 16 weeks of Western diet (WD) feeding. Yellow arrowheads indicate representative atherosclerotic lesions. Quantification of lesion area (% of total aortic surface) is shown on the right (n=8). B, Corresponding representat",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig03.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        736.3
+      ]
+    },
+    {
+      "label": "Figure 4",
+      "num": 4,
+      "page": 10,
+      "caption": "Figure 4. TRIM31 modulates lipid uptake, foam cell formation, and inflammatory responses in macrophages. A, Uniform manifold approximation and projection (UMAP) visualization of single-cell RNA sequencing data from aortic tissues of Apoe−/−Trim31fl/",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig04.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        706.5
+      ]
+    },
+    {
+      "label": "Figure 5",
+      "num": 5,
+      "page": 12,
+      "caption": "Figure 5. TRIM31 interacts with and degrades LOX-1 to suppress macrophage lipid uptake and inflammation. A, Schematic workflow shows 2 complementary mass spectrometry approaches used to identify TRIM31 (tripartite motif-containing 31)– associated proteins. For the immunoprecipitation–mass spectrometry (IP-MS) assay, peritoneal macrophages (PMs) isolated from wild-type (WT) mice were treated with oxidized low-density lipoprotein (ox-LDL) and immunoprecipitated using anti-TRIM31 antibody, followed",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig05.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        729.0
+      ]
+    },
+    {
+      "label": "Figure 6",
+      "num": 6,
+      "page": 14,
+      "caption": "Figure 6. TRIM31-mediated ubiquitination of LOX-1 and its role in foam cell formation. A, Representative Western blot analysis of ubiquitinated Myc-LOX-1 (lectin-like oxidized low-density lipoprotein receptor-1) in HEK-293T cells cotransfected with Flag-TRIM31 (tripartite motif-containing 31; wild-type [WT] or E3-ligase–deficient variants C53/56A and ΔRING) and HA- ubiquitin. B, Representative Western blot analysis showing selective K48-linked, but not K63-linked, ubiquitination of LOX-1 in HEK-",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig06.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        737.5
+      ]
+    },
+    {
+      "label": "Figure 7",
+      "num": 7,
+      "page": 16,
+      "caption": "Figure 7. Lox-1 knockdown rescues atherosclerotic plaque instability caused by Trim31 deficiency in vivo. A, Representative in situ images of the aortic arch (left) and en face Oil Red O–stained aortas (middle) from Apoe−/−Trim31fl/fl, Apoe−/− Trim31fl/",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig07.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        697.3
+      ]
+    },
+    {
+      "label": "Figure 8",
+      "num": 8,
+      "page": 18,
+      "caption": "Figure 8. LOX-1 as a target molecule for TRIM31 in atherosclerosis and macrophage lipid deposition and inflammation. A through D, Male Apoe−/−Lox-1−/− mice reconstituted with adeno-associated virus (Aav)–Lox-1 (wild-type [WT]) and treated with Aav-Trim31 or vector control. A, Experimental design schematic (left) and representative in situ images of the aortic arch and en face Oil Red O–stained aortas (middle) from Apoe−/−Lox-1−/− mice reconstituted with Aav-Lox-1 (WT) and treated with Aav-Trim31",
+      "png": "/path/to/Macrophage Specific E3 Ubiquitin Lig Source Circulation SO 2025_digest/extract/figures/fig08.png",
+      "clip": [
+        0.0,
+        30.0,
+        585.0,
+        735.5
+      ]
+    }
+  ]
+}

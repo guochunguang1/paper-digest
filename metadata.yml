@@ -1,0 +1,37 @@
+name: paper-digest            # 小写连字符，等于目录名与 SKILL.md frontmatter name
+title: 单篇学术 PDF → 中文深度解读 HTML
+status: experimental          # experimental | stable
+plane: workflow               # 轻契约平面（CONTRACT.md 第 9 节）
+language: python
+runtime:
+  - python>=3.9
+  - pymupdf>=1.24
+triggers:                     # 与 SKILL.md description 的触发词一致
+  - 文献解读
+  - 读文献
+  - PDF总结
+  - 论文总结
+  - 摘要翻译
+  - 逐图解读
+  - figure解读
+  - paper digest
+depends_on:
+  - PyMuPDF
+inputs:
+  - 单篇学术 PDF（有文本层，中英文均可）
+outputs:
+  - 自包含单文件解读 HTML（题目/摘要中英对照、背景、方法、重点总结、逐图解读、局限性批判）
+  - extract/ 中间产物（逐页文本、图注清单、逐图 PNG）
+scope:
+  responsible:
+    - PDF 确定性提取（文本 + 逐图裁图）
+    - 全文精读与结构化中文解读
+    - 逐图视觉解读（看图说话）
+    - 自包含 HTML 报告组装与内容质检
+  not_responsible:
+    - 批量多篇（外层循环逐篇调用）
+    - 全文翻译（→ 通用翻译工具）
+    - 扫描版 OCR（→ OCR 工具预处理）
+    - 数据重分析 / 统计复核
+    - 引文真实性与科研诚信核查（→ fakefetch）
+    - 补充材料单独 PDF（显式要求时手动 --pages 模式）

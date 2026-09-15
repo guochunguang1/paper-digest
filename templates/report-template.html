@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- =============================================================================
+  paper-digest · 解读报告 HTML 模板（单一事实源为 CONTRACT 第 9 节；本模板定义版式）
+  规则：单文件自包含，图片一律 base64 内嵌（data:image/png;base64,...），不引外部资源；
+       {{占位符}} 由 LLM 按真实解读内容填充，禁止留占位符交付。
+============================================================================== -->
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{PAPER_TITLE_CN}} · 文献解读</title>
+<style>
+  :root { --ink:#1f2430; --accent:#2563a8; --muted:#6b7280; --line:#e5e7eb; --card:#f8fafc; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+         color: var(--ink); line-height: 1.8; margin: 0; background: #fff; }
+  main { max-width: 880px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 1.55em; line-height: 1.45; margin: .3em 0; }
+  h2 { color: var(--accent); font-size: 1.22em; border-bottom: 2px solid var(--line);
+       padding-bottom: 6px; margin-top: 2.6em; }
+  .meta { color: var(--muted); font-size: .9em; }
+  .en { color: #374151; }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+         padding: 16px 20px; margin: .8em 0; }
+  ul { padding-left: 1.4em; } li { margin: .35em 0; }
+  figure.card { margin: 1.8em 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  figure.card img { max-width: 100%; height: auto; display: block; margin: 0 auto; background: #fff; }
+  figure.card figcaption { padding: 14px 18px; font-size: .93em; background: var(--card); }
+  figure.card .cap-en { color: #374151; font-style: italic; }
+  footer { margin-top: 4em; color: var(--muted); font-size: .85em;
+           border-top: 1px solid var(--line); padding-top: 1.2em; }
+</style>
+</head>
+<body>
+<main>
+  <p class="meta">{{JOURNAL_INFO}} ｜ 生成于 {{DATE}} ｜ 共 {{N_PAGES}} 页 · {{N_FIGS}} 张图</p>
+
+  <h1>{{PAPER_TITLE_CN}}</h1>
+  <p class="en"><b>{{PAPER_TITLE_EN}}</b></p>
+
+  <h2>摘要（中英对照）</h2>
+  <div class="en box">{{ABSTRACT_EN}}</div>
+  <div class="box">{{ABSTRACT_CN}}</div>
+
+  <h2>研究背景与科学问题</h2>
+  {{BACKGROUND}}
+
+  <h2>方法要点</h2>
+  {{METHODS}}
+
+  <h2>重点总结</h2>
+  {{KEY_FINDINGS}}
+
+  <h2>逐图解读</h2>
+  <!-- 每张主图一个 figure.card，图片 base64 内嵌：
+  <figure class="card">
+    <img src="data:image/png;base64,{{B64}}" alt="Figure N">
+    <figcaption>
+      <span class="cap-en"><b>Figure N.</b> {{CAPTION_EN}}</span><br>
+      <b>解读：</b>{{FIGURE_CN_EXPLANATION}}（这张图做了什么 / 怎么做的 / 结果说明什么）
+    </figcaption>
+  </figure>
+  -->
+  {{FIGURES}}
+
+  <h2>局限性与批判性评价</h2>
+  {{LIMITATIONS}}
+
+  <footer>本报告由 paper-digest skill（ZCode）自动生成，AI 解读仅供参考；数据与结论请以原文为准。</footer>
+</main>
+</body>
+</html>

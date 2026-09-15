@@ -4,3 +4,7 @@ extract/
 *.pyc
 __pycache__/
 .DS_Store
+
+# R 运行痕迹
+.Rhistory
+.RData
